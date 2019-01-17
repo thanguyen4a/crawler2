@@ -17,6 +17,8 @@ require COREPATH.'bootstrap.php';
 	// Add classes you want to override here
 	// Example: 'View' => APPPATH.'classes/view.php',
 ));
+\Autoloader::add_class('PHPCrawler',APPPATH.'vendor/mmerian/phpcrawl/libs/PHPCrawler.class.php');
+
 
 // Register the autoloader
 \Autoloader::register();
